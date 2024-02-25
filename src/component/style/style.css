@@ -1,0 +1,40 @@
+.loading {
+    width: 50px;
+    height: 50px;
+    border: 5px solid transparent;
+    border-top-color: #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.wrapper {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-inline: 1rem;
+}
+
+.user {
+    flex: auto;
+    border: 1px solid #363b3e;
+    padding: 1rem;
+    border-radius: 8px;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.user img {
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+    border-radius: 1rem;
+}
